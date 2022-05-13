@@ -11,7 +11,7 @@
             <x:Double x:Key="fontSize">22</x:Double>
         </ResourceDictionary>
     </ContentPage.Resources>
-    <Grid x:Name ="LayoutRoot" BackgroundColor="{StaticResource fgColor}" Padding="10"
+    <Grid x:Name ="LayoutRoot" BackgroundColor="{StaticResource bgColor}" Padding="10"
           ColumnDefinitions="*, 3*"
           RowDefinitions="Auto, Auto, Auto, Auto, *">
 
