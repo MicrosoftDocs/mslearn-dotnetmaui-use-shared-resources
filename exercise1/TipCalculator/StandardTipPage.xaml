@@ -19,12 +19,12 @@
         <Label x:Name="totalOutput" Text="0.00" TextColor="Navy" FontSize="22"   Grid.Row="2" Grid.Column="1" />
 
         <!-- Navigate to advanced-view page -->
-        <Button Text="Use Custom Calculator" Clicked="GotoCustom" TextColor="White" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" />
+        <Button Text="Use Custom Calculator" Clicked="GotoCustom" TextColor="Black" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" />
 
         <!-- Swap the foreground/background colors of this page -->
         <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="End" Spacing="100" Grid.Row="4" Grid.ColumnSpan="2">
-            <Button Clicked="OnLight" Text="Light" TextColor="White" Grid.Column="0" />
-            <Button Clicked="OnDark"  Text="Dark"  TextColor="White" Grid.Column="1" />
+            <Button Clicked="OnLight" Text="Light" TextColor="Black" Grid.Column="0" />
+            <Button Clicked="OnDark"  Text="Dark"  TextColor="Black" Grid.Column="1" />
         </HorizontalStackLayout>
 
     </Grid>
