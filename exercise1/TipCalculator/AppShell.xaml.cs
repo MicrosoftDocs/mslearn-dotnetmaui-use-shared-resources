@@ -7,5 +7,7 @@ public partial class AppShell : Shell
         InitializeComponent();
 
         Routing.RegisterRoute(nameof(CustomTipPage), typeof(CustomTipPage));
+
+        Application.Current.UserAppTheme = AppTheme.Light;
     }
 }
