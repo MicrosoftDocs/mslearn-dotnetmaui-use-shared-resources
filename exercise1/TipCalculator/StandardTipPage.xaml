@@ -3,6 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TipCalculator.StandardTipPage"
              Title="Standard Tip">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key ="bgColor">Silver</Color>
+            <Color x:Key ="fgColor">Navy</Color>
+            <Font x:Key ="fontSize">22</Font>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <Grid x:Name ="LayoutRoot" BackgroundColor="Silver" Padding="10"
           ColumnDefinitions="*, 3*"
           RowDefinitions="Auto, Auto, Auto, Auto, *">
